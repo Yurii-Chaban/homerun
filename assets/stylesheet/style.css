@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #000;
+    font-style: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', "Arial", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;				
+    box-sizing: border-box;
+}
+
+.splash-page {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	background: url("../../splash-page-bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	box-sizing: border-box;
+}
+
+.center-content {
+    width: 100%;
+	height: 100%;
+	margin: 10vh auto 0;
+	padding: 0 15px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.logo {
+	max-width: 375px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.logo img {
+	max-width: 100%;
+	height: auto;
+}
+
+.subtitle {
+	margin: 3rem 0;
+	color: #ffffff;
+	font-size: 3rem;
+	font-weight: 700;
+	letter-spacing: 0.8px;
+}
+.coming-btn {
+	display: block;
+	max-width: 225px;
+	margin: 0 auto;
+	padding: 12px 0;
+	text-align: center;
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 500;
+	letter-spacing: 0.24px;
+	border-radius: 28px;
+	border: 1px solid #ffffff;
+}
+
+@media all and (min-width: 1200) {
+	.center-content {
+		margin: 20vh auto 0;
+	}
+}
