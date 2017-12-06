@@ -33,7 +33,7 @@ body {
 }
 
 .logo {
-  max-width: 275px;
+  max-width: 225px;
   width: 100%;
   height: auto;
   margin: 0 auto;
@@ -46,7 +46,7 @@ body {
 }
 
 .subtitle {
-  margin: 2.5rem 0;
+  margin: 2rem 0;
   color: #ffffff;
   font-size: 2.5rem;
   font-weight: 700;
@@ -55,12 +55,12 @@ body {
 
 .coming-btn {
   display: block;
-  max-width: 175px;
+  max-width: 155px;
   margin: 0 auto;
   padding: 12px 0;
   text-align: center;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.24px;
   border-radius: 28px;
@@ -70,10 +70,5 @@ body {
 @media all and (min-width: 1200px) {
   .center-content {
     margin: 20vh auto 0;
-  }
-
-  .subtitle {
-    margin: 3rem 0;
-    font-size: 4rem;
   }
 }
