@@ -48,6 +48,7 @@ body {
 }
 
 .splash-page {
+  position: relative;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -104,4 +105,31 @@ body {
   letter-spacing: 0.24px;
   border-radius: 20px;
   border: 1px solid #ffffff;
+}
+
+.site-footer {
+  position: absolute;
+  left: 50%;
+  bottom: 25px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.mail-link,
+.mail-link:link, 
+.mail-link:visited {
+  color: #ffffff;
+  font-family: "AvenirNext";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.24px;
+  text-decoration: none;
+}
+
+@media all and (min-width: 1600px) {
+  .site-footer {
+    bottom: 55px;
+  }
 }
