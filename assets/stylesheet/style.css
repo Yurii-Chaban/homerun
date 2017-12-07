@@ -88,6 +88,10 @@ body {
   letter-spacing: 0.8px;
 }
 
+.subtitle span {
+  padding: 0 0 0 15px;
+}
+
 .coming-btn {
   display: block;
   max-width: 130px;
