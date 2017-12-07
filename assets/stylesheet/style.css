@@ -68,7 +68,7 @@ body {
 }
 
 .logo {
-  max-width: 275px;
+  max-width: 225px;
   width: 100%;
   height: auto;
   margin: 0 auto;
@@ -81,7 +81,7 @@ body {
 }
 
 .subtitle {
-  margin: 2.5rem 0;
+  margin: 1.5rem 0 2.5rem;
   color: #ffffff;
   font-size: 3rem;
   font-weight: 700;
