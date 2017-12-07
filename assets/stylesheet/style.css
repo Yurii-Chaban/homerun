@@ -1,3 +1,38 @@
+/*FONTS*/
+@font-face {
+  font-family: 'AvenirNext';
+  src: url('../fonts/AvenirNext-Bold/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AvenirNext-Bold/AvenirNext-Bold.woff') format('woff'),
+  url('../fonts/AvenirNext-Bold/AvenirNext-Bold.ttf')  format('truetype'),
+  url('../fonts/AvenirNext-Bold/AvenirNext-Bold.svg#AvenirNext-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNext';
+  src: url('../fonts/AvenirNext-DemiBold/AvenirNext-DemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AvenirNext-DemiBold/AvenirNext-DemiBold.woff') format('woff'),
+  url('../fonts/AvenirNext-DemiBold/AvenirNext-DemiBold.ttf')  format('truetype'),
+  url('../fonts/AvenirNext-DemiBold/AvenirNext-DemiBold.svg#AvenirNext-DemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'AvenirNext';
+  src: url('../fonts/AvenirNext-Medium/AvenirNext-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AvenirNext-Medium/AvenirNext-Medium.woff') format('woff'),
+  url('../fonts/AvenirNext-Medium/AvenirNext-Medium.ttf')  format('truetype'),
+  url('../fonts/AvenirNext-Medium/AvenirNext-Medium.svg#AvenirNext-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*END FONTS*/
+
+
 body {
   margin: 0;
   padding: 0;
@@ -6,7 +41,7 @@ body {
   font-style: inherit;
   font-size: 14px;
   font-weight: 400;
-  font-family: 'Roboto', "Arial", sans-serif;
+  font-family: 'AvenirNext', 'Roboto', "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   position: relative;
   box-sizing: border-box;
@@ -16,7 +51,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background: url("../../splash-page-bg.png");
+  background: url("../images/splash-page-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
