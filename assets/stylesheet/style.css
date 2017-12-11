@@ -85,6 +85,7 @@ body {
   margin: 1.5rem 0 2.5rem;
   color: #ffffff;
   font-size: 3rem;
+  line-height: 4rem;
   font-weight: 700;
   letter-spacing: 0.8px;
 }
@@ -131,5 +132,11 @@ body {
 @media all and (min-width: 1600px) {
   .site-footer {
     bottom: 55px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .logo {
+    max-width: 175px;
   }
 }
